@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/icon/iconfont.css" />
+		<link rel="stylesheet" href="css/details.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/zoom.js"></script>
+		<script src="js/fixedtop.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/addshop.js"></script>
+		<script src="js/menu.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var zoom=new Zoom('.look');
+				var fixedtop=new Fixedtop('.details_nav');
+				var add=new Addshop('.buy');
+				var menu=new Menu('.change','.bar');
+				
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_inner">
+			<ul class="list_1">
+				<li><a href="#">欢迎光临寺库</a></li>
+				<li><a href="../register/index.html">请登录</a></li>
+				<li><a href="../register/index_2.html">免费注册</a></li>
+				<li><a href="">我的订单</a></li>
+				<li><a href="">客户服务</a></li>
+				<li><a href="">媒体聚焦</a></li>
+				<li><a href="../shopping/index.html">购物车(0)</a></li>
+			</ul>
+			<a href="#"><img src="img/105.png" class="home"/></a>
+			<div class="search">
+			<input type="text" placeholder="HUGO BOSS/雨果博士" class="input"/><input type="button" value="搜索" class="click"/>
+			</div>
+			<ul class="list_2">
+				<li><a href="#">秋冬显瘦连衣裙推荐</a></li>
+				<li><a href="#">牛仔裤999元封顶</a></li>
+				<li><a href="#">NEW折扣盛典</a></li>
+				<li><a href="#">这季怎能少了贝壳包</a></li>
+				<li><a href="#">手腕上的品味不用花大价钱</a></li>
+			</ul>
+			<ul class="list_3">
+				<li><a href="../home/index.html">首页</a></li>
+				<li><a href="#">海外直购</a><img src="img/107.gif" class="hot"></li>
+				<li><a href="#">闪购SALE</a></li>
+				<li><a href="#">我买我拍</a></li>
+				<li><a href="#">品牌旗舰店</a></li>
+				<li><a href="#">中国精品</a></li>
+				<li><a href="#">男士</a></li>
+				<li><a href="#">女士</a></li>
+				<li><a href="#">豪车</a></li>
+			</ul>
+			<img src='img/106.png' class="focus"/>
+			</div>
+		</div>
+		<!--这是header-->
+		
+		<div id="banner">
+			<div class="banner_inner">
+				<p class="bar">全部奢品<span><img src="img/1.png"></span></p>
+				<div class="change">
+						<dl class="nvai">
+							<dt>包袋</dt>
+							<dd><a href="../list/index.html">路易威登</a><a href="#">古驰</a><a href="#">普拉达</a></dd>
+							<dd class="method" id="method1">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>腕表</dt>
+							<dd><a href="#">欧米茄</a><a href="#">卡地亚</a><a href="#">万国</a></dd>
+							<dd class="method" id="method2">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>首饰</dt>
+							<dd><a href="#">宝格丽</a><a href="#">卡地亚</a><a href="#">蒂芙尼</a></dd>
+							<dd class="method" id="method3">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>服装鞋靴</dt>
+							<dd><a href="#">男士T恤</a><a href="#">男式夹克</a><a href="#">休闲鞋</a></dd>
+							<dd class="method" id="method4">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>配饰</dt>
+							<dd><a href="#">腰带</a><a href="#">丝巾</a><a href="#">太阳镜</a><a href="#">镜架</a></dd>
+							<dd class="method" id="method5">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>家居生活</dt>
+							<dd><a href="#">床品</a><a href="#">厨具</a><a href="#">日用</a><a href="#">礼品</a></dd>
+							<dd class="method" id="method6">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>母婴美妆</dt>
+							<dd><a href="#">护肤</a><a href="#">彩妆</a><a href="#">男士</a><a href="#">香水</a></dd>
+							<dd class="method" id="method7">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>户外运动</dt>
+							<dd><a href="#">冲锋衣</a><a href="#">跑步鞋</a><a href="#">男士</a><a href="#">休闲</a></dd>
+							<dd class="method" id="method8">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>豪车频道</dt>
+							<dd><a href="#">新车 </a><a href="#">精品</a><a href="#">飞行器</a></dd>
+							<dd class="method" id="method9">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+				</div>
+					<div class="method">
+					<dl>  
+						<dt>分类</dt>
+						<dd><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+						<dd><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+						<dd><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+					</dl>
+					<dl>
+						<dt>品牌</dt>
+						<dd><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+						<dd><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+						<dd><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+					</dl>
+					<dl>
+						<dt>热词</dt>
+						<dd><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+						<dd><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+						<dd><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+					</dl>
+					<div class="down">
+						<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+					</div>
+				</div>
+				<ul class="list">
+					<li><a href="">首页</a>&gt;</li>
+					<li><a href="">包袋</a>&gt;</li>
+					<li><a href="">单肩包</a>&gt;</li>
+					<li><a href="">路易威登</a>&gt;</li>
+					<li><a href="">Louis</a>&gt;</li>
+					<li><a href="">Vuitton/路易威登 女士经典老花单肩包手提包M44057</a></li>
+					<li>商品编码：16090973</li>
+				</ul>
+				<div class="look">
+					<div class="magnify">
+						<div class="see"><img src="img/13.jpg"/></div>
+						<div class="small">
+							<div class="select"></div>
+							<div class="hide"></div>
+						</div>
+					</div>
+					<div class="big"></div>
+					<div class="buy">
+						<p class="p1">Louis Vuitton/路易威登 女士经典老花单肩包手提包M44057</p>
+						<ul class="list_4">
+							<li>寺库价<span>¥15,300</span></li>
+							<li>发货地<span class="span_1"><span>香港</span>有货</span> <span class="span_2">预计<span>7-15个</span>工作日内送达</span></li>
+							<li>温馨提示<span>本商品无质量问题不支持退换货</span> </li>
+							<li>颜色<img src="img/15.png"/></li>
+							<li>购买数量<span class="span_1"><input type="button" class="minus" value="-"/><input type="text" class="num" value="1"/><input type="button" class="add" value="+"/></span><span class="span_2">仅剩 <span>3 </span>件，抓紧时间购买哦！</span></li>
+						</ul>
+						<div class="btn">
+							<input type="button" name="" id="" value="立即抢购" class="btn1"/>
+							<input type="button" name="" id="" value="加入购物车" class="btn2"/>
+							<p class="installment"><a href="">分期付款</a></p>
+						</div>
+					</div>
+					<div class="help">
+							<ul> 
+								<li><a href="">正品保障</a></li>
+								<li><a href="">七天退换</a></li>
+								<li><a href="">权威质检</a></li>
+								<li><a href="">分享</a></li>
+								<li><a href="">收藏商品</a></li>
+							</ul>
+						</div>
+				</div>
+			</div>
+			<ul class="list_12">
+				<li></li>
+				<li>寺<img src="img/104.jpg"/></li>
+				<li><i class="iconfont">&#xe626;</i></li>
+			</ul>
+		</div>
+		
+		<!--这上面是banner-->
+		
+		<div id="main">
+			<div class="main_inner">
+				<div class="details">
+					<ul class="lately">
+						<li>大家都在买</li>
+						<li>相关商品</li>
+						<li>最近浏览的商品</li>
+					</ul>
+					<div class="referral">
+						<ul class="details_nav">
+							<li>商品详情</li>
+							<li>商品鉴定</li>
+							<li>售后服务</li>
+							<li>购买须知</li>
+							<li><button class="btn3"><i class="iconfont">&#xe73b;</i>加入购物车</button></li>
+						</ul>
+						<img src="img/1.jpg" class="img1"/>
+						<div class="argument">
+						<img src="img/26.png"/>
+						<ul class="ul_argument">
+							<li>产地：France(法国)</li>
+							<li>肩带尺寸：85cm-115cm(可拆卸可调节)…</li>
+							<li>颜色：老花</li>
+							<li>五金材质：合金</li>
+							<li>五金颜色：黄铜色</li>
+							<li>尺寸：35x26x15cm</li>
+							<li>开合方式：拉链开合</li>
+							<li>款式说明：横款</li>
+							<li>附属肩带：有</li>
+							<li>材质：帆布</li>
+							<li>适用人群：女士</li>
+							<li>品牌名称：	路易威登</li>
+						</ul>
+						</div>
+						<div class="story">
+							<img src="img/27.png" />
+							<div class="story_div">
+								<img src="img/29.jpg"/>
+								<p><span>LOUIS VUITTON</span><br />1854年，Louis Vuitton革命性地设计了第一个平顶皮衣箱，并于巴黎开了第一间LV店铺。Louis 
+									<br />Vuitton的种种经典设计顺应了旅行历史的重要发展。1896年Louis Vuitton Monogram帆布首次<br />面世，宣告了品牌的时尚面貌，其独有的创意也成为其经典象征；Louis Vuitton在法式传统中融<br />入了时尚的色彩。代代相传至今的Louis Vuitton以卓越品质、杰出创意和精湛工艺成为时尚旅行<br />艺术的象征。无论是手提包，旅行用品，小型皮具，围巾，配饰，鞋履，成衣，还是腕表，高级<br />珠宝及个性化定制服务，这些悉心打造的产品，代表着Louis Vuitton对卓越工艺的承诺。</p>
+							</div>
+						</div>
+						<div class="details_img">
+							<img src="img/28.png" />
+							<img src="img/3.jpg" class="img_1"/>
+							<img src="img/4.jpg" class="img_1"/>
+							<img src="img/5.jpg" class="img_1"/>
+							<img src="img/6.jpg" class="img_1"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--这上面是main-->
+		
+		<div id="nav">
+			<div class="nav_inner">
+				<div class="appraise">
+				<ul class="ul_appraise">
+					<li>该商品评价（0）</li>
+					<li>同品牌评价（591）</li>
+				</ul>
+				<div class="pose_appraise">
+					<ul class="ul2_appraise">
+						<li class="li_select">全部（591）</li>
+						<li>有图评价（84）</li>
+					</ul>
+					<div class="talk">
+						<dl class="avatar">
+							<dt><img src="img/32.jpg"/></dt>
+							<dd>1***2</dd>
+						</dl>
+						<div class="star">
+							<ul class="ul3_appraise">
+								<li><span></span><span></span><span></span><span></span><span></span>5.0</li>
+								<li>来自寺库IOS客户端</li>
+								<li>同品牌评价</li>
+								<li>2017/06/06 14:55:35</li>
+							</ul>
+							<div class="speak">
+							<ul class="speak_1">
+							<li>老公送我的，非常喜欢</li>
+							<li>Louis Vuitton/路易威登 女士樱桃红FLANDRIN 手提、单肩包M41596帆布/配皮</li>
+							<li class="zan">(0)</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<!--------------------------------------------------------------------->
+					<div class="talk">
+						<dl class="avatar">
+							<dt><img src="img/32.jpg"/></dt>
+							<dd>1***2</dd>
+						</dl>
+						<div class="star">
+							<ul class="ul3_appraise">
+								<li><span></span><span></span><span></span><span></span><span></span>5.0</li>
+								<li>来自寺库IOS客户端</li>
+								<li>同品牌评价</li>
+								<li>2017/06/06 14:55:35</li>
+							</ul>
+							<div class="speak">
+							<ul class="speak_1">
+							<li>老公送我的，非常喜欢</li>
+							<li>Louis Vuitton/路易威登 女士樱桃红FLANDRIN 手提、单肩包M41596帆布/配皮</li>
+							<li class="zan">(0)</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<!---------------------------------------------------->
+					<div class="talk">
+						<dl class="avatar">
+							<dt><img src="img/32.jpg"/></dt>
+							<dd>1***2</dd>
+						</dl>
+						<div class="star">
+							<ul class="ul3_appraise">
+								<li><span></span><span></span><span></span><span></span><span></span>5.0</li>
+								<li>来自寺库IOS客户端</li>
+								<li>同品牌评价</li>
+								<li>2017/06/06 14:55:35</li>
+							</ul>
+							<div class="speak">
+							<ul class="speak_1">
+							<li>老公送我的，非常喜欢</li>
+							<li>Louis Vuitton/路易威登 女士樱桃红FLANDRIN 手提、单肩包M41596帆布/配皮</li>
+							<li class="zan">(0)</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<!-------------------------------------------------------->
+					<div class="talk">
+						<dl class="avatar">
+							<dt><img src="img/32.jpg"/></dt>
+							<dd>1***2</dd>
+						</dl>
+						<div class="star">
+							<ul class="ul3_appraise">
+								<li><span></span><span></span><span></span><span></span><span></span>5.0</li>
+								<li>来自寺库IOS客户端</li>
+								<li>同品牌评价</li>
+								<li>2017/06/06 14:55:35</li>
+							</ul>
+							<div class="speak">
+							<ul class="speak_1">
+							<li>老公送我的，非常喜欢</li>
+							<li>Louis Vuitton/路易威登 女士樱桃红FLANDRIN 手提、单肩包M41596帆布/配皮</li>
+							<li class="zan">(0)</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<!------------------------------------------------------->
+					<div class="talk">
+						<dl class="avatar">
+							<dt><img src="img/32.jpg"/></dt>
+							<dd>1***2</dd>
+						</dl>
+						<div class="star">
+							<ul class="ul3_appraise">
+								<li><span></span><span></span><span></span><span></span><span></span>5.0</li>
+								<li>来自寺库IOS客户端</li>
+								<li>同品牌评价</li>
+								<li>2017/06/06 14:55:35</li>
+							</ul>
+							<div class="speak">
+							<ul class="speak_1">
+							<li>老公送我的，非常喜欢</li>
+							<li>Louis Vuitton/路易威登 女士樱桃红FLANDRIN 手提、单肩包M41596帆布/配皮</li>
+							<li class="zan">(0)</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<!-------------------------------------------->
+					<ul class="ul4_appraise">
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>...</li>
+						<li>74</li>
+						<li>下一页</li>
+					</ul>
+				</div>
+				<ul class="ul5_appraise">	     
+					<li>更多热门：</li>
+					<li>迈克·科尔斯单肩包</li>
+					<li>爱马仕单肩包</li>
+					<li>prada单肩包</li>
+					<li>卡地亚单肩包</li>
+					<li>迪奥单肩包</li>
+					<li>chanel单肩包</li>
+				</ul>
+				<ul class="ul6_appraise">          
+					<li>gucci单肩包</li>
+					<li>cartier单肩包</li>
+					<li>lv皮带</li>
+					<li>古驰包包</li>
+					<li>chanel官网</li>
+					<li>阿玛尼包包官网</li>
+					<li>香奈儿包包</li>
+					<li>香奈儿官网</li>
+					<li>圣罗兰包包</li>
+					<li>爱马仕手提包</li>
+					<li>巴黎世家钱包</li>
+				</ul>
+				<p class="p3">迪奥</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--这是nav-->
+		
+		<div id="footer">
+			<div class="footer_inner">
+				<div class="after">
+					<ul>
+						<li>新手指南</li>
+						<li>注册新用户</li>
+						<li>网上订购流程</li>
+						<li>优惠券使用说明</li>
+						<li>海外站购买说明</li>
+						<li>美国站购买说明</li>
+					</ul>
+					<ul>
+						<li>付款方式</li>
+						<li>在线支付</li>
+						<li>库支付</li>
+						<li>银行汇款</li>
+						<li>货到付款</li>
+					</ul>
+					<ul>
+						<li>物流配送</li>
+						<li>管家配送</li>
+						<li>快递配送</li>
+						<li>到店自提</li>
+						<li>配送范围及时间</li>
+						<li>配送政策</li>
+					</ul>
+					<ul>
+						<li>售后服务</li>
+						<li>退换货说明</li>
+						<li>如何办理退款</li>
+						<li>售后服务保养手册</li>
+						<li>奢侈品养护服务</li>
+						<li>奢侈品拍卖置换</li>
+					</ul>
+					<ul class="f_list">
+						<li>跨境体验店</li>
+						<li>寺库通过在全球多地设立体验店和办事机构的方式，为高端消费<br/>者提供贴心的全球奢侈品一站式服务</li>
+						<li><span>北京</span><span>香港</span><span>宜春</span></li>
+						<li><span>上海</span><span>米兰</span></li>
+						<li><span>成都</span><span>马来西亚</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--/*这上面是一个‘footer*/-->
+		<div id="footer_1">
+			<div class="footer_1_inner">
+				<ul>
+					<li>100%正品保证</li>
+					<li>7天退换货</li>
+					<li>专业维修保养</li>
+					<li>权威奢侈品鉴定</li>
+					<li>贴心管家物流</li>
+				</ul>
+			</div>
+		</div>
+		<!--/*这上面是一个‘footer_1*/-->
+		
+		<div id="footer_2">
+			<div class="footer_2_inner">
+				<div class="f_list_2">
+					<ul>
+						<li>寺库网</li>
+						<li>寺库奢侈品养护</li>
+						<li>寺库招商</li>
+						<li>寺库加盟店</li>
+					</ul>
+					<ul>
+						<li>统一社会信用代码：91110102689248179K</li>
+						<li>京公安备11010102001392</li>
+						<li>京ICP证110119号京ICP备09084709号-3</li>
+						<li>ISO9001中国质量管理体系认证</li>
+					</ul>
+					<ul>
+						<li>加入寺库</li>
+						<li>联系我们</li>
+						<li>关于寺库</li>
+						<li>帮助中心</li>
+						<li>寺库微博</li>
+						<li>友情链接</li>
+						<li>奢侈品热词</li>
+						<li>奢侈品资讯</li>
+					</ul>
+					<ul>
+						<li>COPYRIGHT © 2010-2016 北京寺库商贸有限公司 版权所有</li>
+					</ul>
+					<ul class="bg">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="code">
+					<img src="img/104.jpg">
+					<img src="img/104.jpg">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

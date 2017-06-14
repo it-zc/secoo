@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/shop.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/roll.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/addshop.js"></script>
+		
+		<script type="text/javascript">
+			$(function(){
+				var roll=new Roll();
+				var added=new Addshoped('.tradename');
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_inner">
+				<img src="img/1.png" class="img_1"/>
+				<img src="img/2.jpg" class="img_2"/>
+		</div>
+		 <!--这是header-->
+		 
+		 <div id="main">
+		 	<div class="main_inner">
+		 		<div class="basket">
+		 		<p class="p1">现在<a href="../register/index.html">登录</a>您购物车中的商品将被永久保存</p>
+		 		<div class="explain">
+		 			<ul class="explain_ul">
+		 				<li><input type="checkbox"><span>全选</span></li>
+		 				<li>商品名称</li> 	 	 	 	 	
+		 				<li>发货站</li>
+		 				<li>价格</li>
+		 				<li>数量</li>
+		 				<li>金额小计</li>
+		 				<li>操作</li>
+		 			</ul>
+		 		</div>
+		 		<div class="tradename">
+		 			
+		 			<!--<ul class="tradename_ul">
+		 				<li class="tradename_ul_li1"><input type="checkbox"></li>
+		 				<li class="tradename_ul_li2">
+		 					<dl>
+		 						<dt><img src="img/5.jpg" class="img"/></dt>
+		 						<dd>
+		 							<p class="username">Louis Vuitton/路易威登 男士黑色老花帆布藤原浩合作限定款 Brazza 长款对折钱包 M64438</p>
+		 							<p>颜色：黑色</p>
+		 						</dd>
+		 					</dl>
+		 				</li>
+		 				<li class="tradename_ul_li3">中国大陆</li>
+		 				<li class="tradename_ul_li4">¥6,307</li>
+		 				<li class="tradename_ul_li5"><button class="min">-</button><input type="text" value="1"/><button class="add">+</button></li>
+		 				<li class="tradename_ul_li6">¥ 6,307元 </li>
+		 				<li class="tradename_ul_li7">删除</li>
+		 			</ul>-->
+		 			
+		 		</div>
+		 		<div class="close">
+		 			<div class="close_div1">
+		 				<ul class="close_ul">
+		 					<li><input type="checkbox"/>全选</li>
+		 					<li>删除选中商品</li>
+		 				</ul>
+		 				<p><a href="">继续购物</a></p>
+		 			</div>
+		 			<ul class="close_ul2">
+		 				<li>商品数量总计：0件</li>
+		 				<li>包装数量总计：0件</li>
+		 				<li>返利库币：0库币</li>
+		 				<li>商品金额总计（不含税金和运费）：0</li>
+		 				<li><input type="button" value="立即结算"/></li>
+		 			</ul>
+		 		</div>
+		 		<div class="guess">
+		 			<p class="guess_p">猜你喜欢</p>
+		 			<div class="guess_div">
+		 				<div class="guess_div2">
+		 				<dl>
+		 					<dt><img src="img/6.jpg"/></dt>
+		 					<dd>OFF THE RECORD Morena </dd>
+		 					<dd>1311元</dd>
+		 				</dl>
+		 				<dl>
+		 					<dt><img src="img/7.jpg"/></dt>
+		 					<dd>OFF THE RECORD Morena </dd>
+		 					<dd>1311元</dd>
+		 				</dl>
+		 				<dl>
+		 					<dt><img src="img/8.jpg"/></dt>
+		 					<dd>OFF THE RECORD Morena </dd>
+		 					<dd>1311元</dd>
+		 				</dl>
+		 				<dl>
+		 					<dt><img src="img/9.jpg"/></dt>
+		 					<dd>OFF THE RECORD Morena </dd>
+		 					<dd>1311元</dd>
+		 				</dl>
+		 				</div>
+		 				<div class="btn" id="left">&lt;</div>
+		 				<div class="btn" id="right">&gt;</div>
+		 			</div>
+		 		</div>
+		 		</div>
+		 	</div>
+		 </div>
+		 
+		 <!--上面是main-->
+		 
+		 <div id="nav">
+		 	<div class="nav_inner">
+		 		<ul class="nav_ul1">
+		 			<li>正品保障</li>
+		 			<li></li>
+		 			<li>七天退修</li>
+		 			<li></li>
+		 			<li>维修保养</li>
+		 			<li></li>
+		 			<li>权威鉴定</li>
+		 			<li></li>
+		 			<li>管家服务</li>
+		 		</ul>
+		 		<ul class="nav_ul2">
+		 			<li><img src="img/18.png"/></li>
+		 			<li><img src="img/19.png"/></li>
+		 		</ul>
+		 		<ul class="nav_ul3">
+		 			<li>加入寺库</li>
+		 			<li>关于寺库</li>
+		 			<li>联系我们</li>
+		 			<li>支付方式</li>
+		 			<li>帮助中心</li>
+		 		</ul>
+		 		<ul class="nav_ul4">
+		 			<li>售后服务</li>
+		 			<li>免责声明</li>
+		 			<li>礼品采购</li>
+		 			<li>寺库微博</li>
+		 			<li>友情链接</li>
+		 		</ul>
+		 	</div>
+		 </div>
+		 
+		 <!--这上面是nav-->
+		 
+		 <div id="footer">
+		 	<div class="footer_inner">
+		 		<ul class="footer_ul">
+		 		<li>京ICP备09084709号-3 京公网安备110105004373号</li>
+		 		<li><img src="img/103.jpg"/></li>
+		 		<li><img src="img/101.jpg"/></li>
+		 		<li><img src="img/99.jpg"/></li>
+		 		</ul>
+		 	</div>
+		 </div>
+	</body>
+</html>
+
+
+<!--$('<ul class="tradename_ul">'+
+						'<li class="tradename_ul_li1"><input type="checkbox"></li>'+
+						'<li class="tradename_ul_li2">'+
+							'<dl>'+
+								'<dt><img class="img" src=img/'+arr[i].imgname+' /></dt>'+
+								'<dd><p class="username">'+arr[i].username+'</p><p>颜色：黑色</p></dd>'+
+							'</dl>'+
+						'</li>'+
+						'<li class="tradename_ul_li3">中国大陆</li>'+
+						'<li class="tradename_ul_li4">'+arr[i].price+'</li>'+
+						'<li class="tradename_ul_li5"><button>-</button><input type="text" value="1"/><button>+</button></li>'+
+						'<li class="tradename_ul_li6">'+arr[i].price+'</li>'+
+						'<li class="tradename_ul_li7">删除</li>'+
+					'</ul>')-->

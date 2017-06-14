@@ -1,0 +1,135 @@
+[1mdiff --git a/.idea/SECOO.iml b/.idea/SECOO.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c956989[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/SECOO.iml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="WEB_MODULE" version="4">[m
+[32m+[m[32m  <component name="NewModuleRootManager">[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$" />[m
+[32m+[m[32m    <orderEntry type="inheritedJdk" />[m
+[32m+[m[32m    <orderEntry type="sourceFolder" forTests="false" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..10fae3a[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/.idea/SECOO.iml" filepath="$PROJECT_DIR$/.idea/SECOO.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f6a365e[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -0,0 +1,471 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ChangeListManager">[m
+[32m+[m[32m    <list default="true" id="dc81f803-7673-4f02-acaf-118843e7f3c2" name="Default" comment="" />[m
+[32m+[m[32m    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+[32m+[m[32m    <option name="TRACKING_ENABLED" value="true" />[m
+[32m+[m[32m    <option name="SHOW_DIALOG" value="false" />[m
+[32m+[m[32m    <option name="HIGHLIGHT_CONFLICTS" value="true" />[m
+[32m+[m[32m    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />[m
+[32m+[m[32m    <option name="LAST_RESOLUTION" value="IGNORE" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />[m
+[32m+[m[32m  <component name="FileEditorManager">[m
+[32m+[m[32m    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">[m
+[32m+[m[32m      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/register/Register.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="60">[m
+[32m+[m[32m              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="47" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="user.json" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/register/json/user.json">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="0">[m
+[32m+[m[32m              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="Register_1.php" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/register/Register_1.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="240">[m
+[32m+[m[32m              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="index_2.html" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/register/index_2.html">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="210">[m
+[32m+[m[32m              <caret line="71" column="46" lean-forward="false" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/register/index.html">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="240">[m
+[32m+[m[32m              <caret line="32" column="59" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="jquery.cookie.js" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/register/js/jquery.cookie.js">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="210">[m
+[32m+[m[32m              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="n#!!doc" expanded="true" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m    </leaf>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="IdeDocumentHistory">[m
+[32m+[m[32m    <option name="CHANGED_PATHS">[m
+[32m+[m[32m      <list>[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/register/Register.php" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/register/css/register_2.css" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/register/json/user.json" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/register/index_2.html" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/register/Register_1.php" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/register/css/register.css" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/register/index.html" />[m
+[32m+[m[32m      </list>[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />[m
+[32m+[m[32m  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />[m
+[32m+[m[32m  <component name="JsGulpfileManager">[m
+[32m+[m[32m    <detection-done>true</detection-done>[m
+[32m+[m[32m    <sorting>DEFINITION_ORDER</sorting>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />[m
+[32m+[m[32m  <component name="Proj

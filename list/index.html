@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/list.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/sort.js"></script>
+		<script src="js/toggle.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/moroption.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/addshop.js"></script>
+		<script src="js/listscreen.js"></script>
+		
+		<script>
+			$(function(){
+				var toggle=new Toggle('.commodity');
+				var menu=new Menu('.change','.bar');
+				var more=new Moreoption('.more','.list_5');
+				var add=new Addshop('.add_shop');
+				var listscreen=new Screen('.list_5','.only','.commodity');
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_inner">
+			<ul class="list_1">
+				<li><a href="#">欢迎光临寺库</a></li>
+				<li><a href="../register/index.html">请登录</a></li>
+				<li><a href="../register/index_2.html">免费注册</a></li>
+				<li><a href="">我的订单</a></li>
+				<li><a href="">客户服务</a></li>
+				<li><a href="">媒体聚焦</a></li>
+				<li><a href="../shopping/index.html">购物车(0)</a></li>
+			</ul>
+			<a href="#"><img src="img/105.png" class="home"/></a>
+			<div class="search">
+			<input type="text" placeholder="HUGO BOSS/雨果博士" class="input"/><input type="button" value="搜索" class="click"/>
+			</div>
+			<ul class="list_2">
+				<li><a href="#">秋冬显瘦连衣裙推荐</a></li>
+				<li><a href="#">牛仔裤999元封顶</a></li>
+				<li><a href="#">NEW折扣盛典</a></li>
+				<li><a href="#">这季怎能少了贝壳包</a></li>
+				<li><a href="#">手腕上的品味不用花大价钱</a></li>
+			</ul>
+			<ul class="list_3">
+				<li><a href="../home/index.html">首页</a></li>
+				<li><a href="#">海外直购</a><img src="img/107.gif" class="hot"></li>
+				<li><a href="#">闪购SALE</a></li>
+				<li><a href="#">我买我拍</a></li>
+				<li><a href="#">品牌旗舰店</a></li>
+				<li><a href="#">中国精品</a></li>
+				<li><a href="#">男士</a></li>
+				<li><a href="#">女士</a></li>
+				<li><a href="#">豪车</a></li>
+			</ul>
+			<img src='img/106.png' class="focus"/>
+			</div>
+		</div>
+		<!--这是header-->
+		
+		<div id="banner">
+			<div class="banner_inner">
+				<p class="bar">全部奢品<span><img src="img/1.png"></span></p>
+				<div class="change">
+						<dl class="nvai">
+							<dt>包袋</dt>
+							<dd><a href="index.html">路易威登</a><a href="#">古驰</a><a href="#">普拉达</a></dd>
+							<dd class="method" id="method1">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>腕表</dt>
+							<dd><a href="#">欧米茄</a><a href="#">卡地亚</a><a href="#">万国</a></dd>
+							<dd class="method" id="method2">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>首饰</dt>
+							<dd><a href="#">宝格丽</a><a href="#">卡地亚</a><a href="#">蒂芙尼</a></dd>
+							<dd class="method" id="method3">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>服装鞋靴</dt>
+							<dd><a href="#">男士T恤</a><a href="#">男式夹克</a><a href="#">休闲鞋</a></dd>
+							<dd class="method" id="method4">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>配饰</dt>
+							<dd><a href="#">腰带</a><a href="#">丝巾</a><a href="#">太阳镜</a><a href="#">镜架</a></dd>
+							<dd class="method" id="method5">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>家居生活</dt>
+							<dd><a href="#">床品</a><a href="#">厨具</a><a href="#">日用</a><a href="#">礼品</a></dd>
+							<dd class="method" id="method6">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>母婴美妆</dt>
+							<dd><a href="#">护肤</a><a href="#">彩妆</a><a href="#">男士</a><a href="#">香水</a></dd>
+							<dd class="method" id="method7">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>户外运动</dt>
+							<dd><a href="#">冲锋衣</a><a href="#">跑步鞋</a><a href="#">男士</a><a href="#">休闲</a></dd>
+							<dd class="method" id="method8">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="nvai">
+							<dt>豪车频道</dt>
+							<dd><a href="#">新车 </a><a href="#">精品</a><a href="#">飞行器</a></dd>
+							<dd class="method" id="method9">
+								<dl>  
+									<dt class="dt">分类</dt>
+									<dd class="dd"><a href="">手提包</a><a href="">单肩包</a><a href="">钱包</a><a href="">斜挎包</a><a href="">手拿包</a></dd>
+									<dd class="dd"><a href="">双肩包</a><a href="">公文包</a><a href="">拉杆箱</a><a href="">小型皮具</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">女士包袋 </a><a href="">男士包袋</a href=""></dd>
+								</dl>
+								<dl>
+									<dt class="dt">品牌</dt>
+									<dd class="dd"><a href="">爱马仕</a><a>路易威登</a><a href="">普拉达</a><a href="">古驰</a><a href="">蔻驰</a></dd>
+									<dd class="dd"><a href="">葆蝶家</a><a>博柏利</a><a href="">迈克·科尔斯</a><a href="">芬迪</a><a href="">化妆包</a></dd>
+									<dd class="dd"><a href="">圣罗兰 </a><a>菲拉格慕</a><a href="">杜嘉班纳</a></dd>
+								</dl>
+								<dl>
+									<dt class="dt">热词</dt>
+									<dd class="dd"><a href="">杀手包</a><a href="">贝壳包</a><a href="">饺子包</a><a href="">链条包</a><a href="">铆钉包</a></dd>
+									<dd class="dd"><a href="">托特包</a><a href="">小怪兽</a><a href="">购物袋</a><a href="">GUCCI酒神</a><a href="">LV老花</a></dd>
+									<dd class="dd"s><a href="">Burberry格纹 </a><a href="">养护套餐</a></dd>
+								</dl>
+								<div class="down">
+									<a href="">杜嘉班纳黑手党</a><a>PRADA上新999元起</a>
+								</div>
+							</dd>
+						</dl>
+				</div>
+				<div class="condition">
+					<ul class="list_4">
+						<li><a href="">全部</a><span>></span></li>
+						<li><a href="">包袋</a><span>></span></li>
+						<li><a href="">Louis Vuitton/路易威登</a></li>
+						<li>共855件商品</li>
+					</ul>    																						    															
+					<ul class="list_5">
+						<li><span>已选择</span><p class="brand">品牌：Louis Vuitton/路易威登  x</p><p class="clear">清除条件</p></li>
+						<li><span>分类:</span><p>单肩包(119)</p> <p>斜挎包(73)</p> <p>手提包(145)</p> <p>公文包(18)</p> <p>双肩包(14)</p> <p>钱包(105)</p> <p>手拿包(12)</p> <p>小型皮具(3)</p> <p>其它(1)</p></li>
+						<li><span>价格:</span><p>1000以下</p> <p>1001-2000</p> <p>2001-5000</p> <p>5001-10000</p> <p>10001-50000</p> <p>50001-100000</p> <p>100001以上</p></li>
+						<li><span>附属肩带:</span><p>有</p> <p>无</p></li>
+						<li><span>五金颜色:</span><p>黄铜色</p> <p>铁灰色</p> <p>银色</p> <p>金色</p> <p>黑色</p> <p>金铜色</p> <p>其它</p><p>多选</p></li>
+						<li><span>五金材质:</span><p>合金</p> <p>金</p> <p>银</p> <p>黄铜</p> <p>钢</p> <p>其他</p></li>
+						<li><span>材质:</span><p></p></li>
+						<li><span>适用人群:</span><p>男士</p> <p>女士</p> <p>中性款式</p></li>
+						<li><span>开合方式:</span><p></p></li>
+						<li><span>发货地:</span><p></p></li>
+					</ul>
+					<p class="more">更多选项</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--这上面是一个banner-->
+		
+		<div id="main">
+			<div class="main_inner">
+				<p class="p1"><a href="">商城(488)</a><a href="">拍卖(419)</a><span></span></p>
+				<div class="rank">
+				<ul class="list_6">
+					<li class="first">综合</li>
+					<li>人气</li>
+					<li>新品</li>
+					<li>销量</li>
+					<li>折扣</li>
+					<li>价格</li>
+				</ul>
+				<div class="rank_1">
+					<input type="text" placeholder="￥"/>-<input type="text" placeholder="￥"/><br/>
+					<button>清空</button> <button class="sure"/>确定</button>
+				</div>
+				<div class="rank_2">
+					<input type="checkbox" /><span>新到商品</span>
+					<input type="checkbox" /><span>促销优惠</span>
+					<input type="checkbox" /><span>闪购</span>
+					<input type="checkbox" /><span>海外直邮</span>
+				</div>
+				<div class="rank_3">
+					<input type="text" /><button>确定</button>
+				</div>
+				<div class="rank_4">
+					<input type="button" value="&lt;"/><span>1/11</span><input type="button" value="&gt;"/>
+				</div>
+				</div>
+				<div class="commodity">
+					<dl class="only" only_price="6307">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/11.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 男士黑色老花帆布藤原浩合作限定款 Brazza 长款对折钱包</a></dd>
+							<dd class="price"><span class="money">￥6307</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="17100" only_name="Louis Vuitton/路易威登 蓝/灰棋格限量双肩包">
+						<div class="tips" >
+							<dt class="picture"><a href="#"><img src="img/27.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 蓝/灰棋格限量双肩包</a> </dd>
+							<dd class="price"><span class="money">￥17100</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!---------------------------------------->
+					<dl class="only" only_price="15300">
+						<div class="tips">
+							<dt class="picture"><a href="../details/index.html"><img src="img/30.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士经典老花单肩包手提包M44057</a> </dd>
+							<dd class="price"><span class="money">￥15300</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="15300">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/14.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 黑老花手提包M40567</a> </dd>
+							<dd class="price"><span class="money">￥15300</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------------->
+					<dl class="only" only_price="13280">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/3.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 District美洲杯系列小号邮差包 N44002</a> </dd>
+							<dd class="price"><span class="money">￥13280</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--------------------------------------------------->
+					<dl class="only" only_price="11890">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/1.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 灰棋格手提包Porte-Documents Jour NM N48260</a> </dd>
+							<dd class="price"><span class="money">￥11890</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--===================================================-->
+					<dl class="only" only_price="14400">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/31.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton(路易威登)Newport蓝棋盘格中号邮差包</a> </dd>
+							<dd class="price"><span class="money">￥14400</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!-------------------------------------------------------->
+					<dl class="only" only_price="13300">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/4.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 男士经典格纹帆布 单肩包斜挎包N44003</a> </dd>
+							<dd class="price"><span class="money">￥13300</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!----------------------------------------------------->
+					<dl class="only" only_price="10700">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/5.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 TURENNE 女士两用 帆布/配皮 单肩包M48813</a> </dd>
+							<dd class="price"><span class="money">￥10700</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="16200">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/29.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 红色邮差手提肩背两包 M41488</a> </dd>
+							<dd class="price"><span class="money">￥16200</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!---------------------------------------->
+					<dl class="only" only_price="14500">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/32.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 男士经典格纹帆布 单肩包斜挎包N44004</a> </dd>
+							<dd class="price"><span class="money">￥14500</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="11600">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/2.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士老花单肩包/斜挎包 Saint Cloud手袋 M41481 帆</a> </dd>
+							<dd class="price"><span class="money">￥11600</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------------->
+					<dl class="only" only_price="14380">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/9.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 灰棋格公文包 N41125</a> </dd>
+							<dd class="price"><span class="money">￥14380</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--------------------------------------------------->
+					<dl class="only" only_price="17500">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/13.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士老花帆布/配皮 Victoire单肩包 手提包 M41730</a> </dd>
+							<dd class="price"><span class="money">￥17500</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--===================================================-->
+					<dl class="only" only_price="15900">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/15.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 棕色老花手提肩背两用包 Montaigne BB M41055</a> </dd>
+							<dd class="price"><span class="money">￥15900</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!-------------------------------------------------------->
+					<dl class="only" only_price="9600">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/12.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士棕棋格两用包Speedy30 N41367</a> </dd>
+							<dd class="price"><span class="money">￥9600</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--------------------------------------------->
+					<dl class="only" only_price="23530">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/20.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton(路易威登) LOCKIT系列樱花粉色皮质两用包</a> </dd>
+							<dd class="price"><span class="money">￥23530</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="12980">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/28.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 棕色棋盘格女士手提两用包 N41435</a> </dd>
+							<dd class="price"><span class="money">￥12980</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!---------------------------------------->
+					<dl class="only" only_price="7200">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/35.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 FELICIE女士老花色斜挎包、帆布/配皮M61276</a> </dd>
+							<dd class="price"><span class="money">￥7200</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="8500">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/36.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 经典老花帆布女士Alma BB手提包/斜挎包 M53152</a> </dd>
+							<dd class="price"><span class="money">￥8500</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------------->
+					<dl class="only" only_price="9111">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/34.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 Neverfull中号 Monogram帆布/配皮 女士 单肩包 </a> </dd>
+							<dd class="price"><span class="money">￥9111</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--------------------------------------------------->
+					<dl class="only" only_price="8980">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/10.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 经典老花帆布/配皮女士Petit Noé 小号帆布手提袋 </a> </dd>
+							<dd class="price"><span class="money">￥8980</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--===================================================-->
+					<dl class="only" only_price="3778">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/19.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士 Monogram帆布 CLÉMENCE 钱包M60742</a> </dd>
+							<dd class="price"><span class="money">￥3778</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!-------------------------------------------------------->
+					<dl class="only" only_price="9610">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/14.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 灰棋格手提两用包 N41478</a> </dd>
+							<dd class="price"><span class="money">￥9610</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------------->
+					<dl class="only" only_price="9667">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/17.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士老花购物袋大号、帆布/配皮、单肩包、M40990(配</a> </dd>
+							<dd class="price"><span class="money">￥9667</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="15732">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/39.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士黑红老花邮差包 M41462</a> </dd>
+							<dd class="price"><span class="money">￥15732</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!---------------------------------------->
+					<dl class="only" only_price="11807">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/40.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士 棕色棋盘邮差包 N53000</a> </dd>
+							<dd class="price"><span class="money">￥11807</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="18182">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/41.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士老花Monogram帆布/配皮 焦糖色 TUILERIES </a> </dd>
+							<dd class="price"><span class="money">￥18182</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------------->
+					<dl class="only" only_price="11807">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/42.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 白棋盘格女士手提两用包 N41581</a> </dd>
+							<dd class="price"><span class="money">￥11807</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--------------------------------------------------->
+					<dl class="only" only_price="26219">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/43.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士黑色皮质DOUBLE V 手提包</a> </dd>
+							<dd class="price"><span class="money">￥26219</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--===================================================-->
+					<dl class="only" only_price="6978">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/44.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士三拼色Epi Leather三合一链条包 斜挎包 M61754</a> </dd>
+							<dd class="price"><span class="money">￥6978</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!-------------------------------------------------------->
+					<dl class="only" only_price="12713">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/45.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士老花拼红色皮SAINT MICHEL 单肩包 M44031 </a> </dd>
+							<dd class="price"><span class="money">￥12713</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--------------------------------------------------->
+					<dl class="only" only_price="15000">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/46.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士帆布/配皮 Tuileries Besace 手提包 单肩包</a> </dd>
+							<dd class="price"><span class="money">￥15000</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="17613">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/47.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士两用包 褐色拼粉色 帆布/配皮 TUILERIES M41454</a> </dd>
+							<dd class="price"><span class="money">￥17613</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!---------------------------------------->
+					<dl class="only" only_price="9600">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/48.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 Porte-Documents Voyage 小号老花色/黑色帆布/配皮男士公文包,M52005</a> </dd>
+							<dd class="price"><span class="money">￥9600</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------>
+					<dl class="only" only_price="11194">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/49.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士中号棕棋格帆布手提包/斜挎包 N41545</a> </dd>
+							<dd class="price"><span class="money">￥11194</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!------------------------------------------->
+					<dl class="only" only_price="37871">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/50.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 女士 水波纹PVC/配皮 红色 斜挎包小盒子M50013</a> </dd>
+							<dd class="price"><span class="money">￥37871</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--------------------------------------------------->
+					<dl class="only" only_price="10999">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/51.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登Turenne老花经典帆布/配皮女士手提包/单肩包 特价</a> </dd>
+							<dd class="price"><span class="money">￥10999</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!--===================================================-->
+					<dl class="only" only_price="9688">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/52.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 经典老花SPEEDY30帆布女士手提两用包M41112</a> </dd>
+							<dd class="price"><span class="money">￥9688</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+					<!-------------------------------------------------------->
+					<dl class="only" only_price="9688">
+						<div class="tips">
+							<dt class="picture"><a href="#"><img src="img/53.jpg"></a></dt>
+							<dd class="filed"><span class="f1">NEW</span></dd>
+							<dd class="name"><a href="#">Louis Vuitton/路易威登 经典老花SPEEDY30帆布女士手提两用包M41112</a> </dd>
+							<dd class="price"><span class="money">￥9688</span></dd>
+							<dd class="addshop"><span class="add_shop">加入购物车</span><span class="num">仅剩一件</span></dd>
+							<span id="collect">收藏</span>
+							<span id="shoped">已加入购物车</span>
+						</div>
+					</dl>
+				</div>
+				<ul class="list_7">
+					<li>上一页</li>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>...</li>
+					<li>13</li>
+					<li>下一页</li>
+					<li>共13页，到第</li>
+					<li><span>1</span>页</li>
+					<li>确定</li>
+				</ul>
+				<div class="boom">
+					<p>畅销排行榜</p>
+					<dl class="dl_boom">
+							<dt><a href="#"><img src="img/33.JPG"></a></dt>
+							<dd class="boom_name"><a href="#">Louis Vuitton(路易威登) 米白色水木纹手拿包</a> </dd>
+							<dd class="boom_money"><span>￥2875</span></dd>
+					</dl>
+					<dl class="dl_boom">
+							<dt><a href="#"><img src="img/34.JPG"></a></dt>
+							<dd class="boom_name"><a href="#">Louis Vuitton/路易威登 Neverfull中号 Monogram帆布/配皮 女士 单肩包 </a> </dd>
+							<dd class="boom_money"><span>￥9111</span></dd>
+					</dl>
+					<dl class="dl_boom">
+							<dt><a href="#"><img src="img/35.JPG"></a></dt>
+							<dd class="boom_name"><a href="#">Louis Vuitton/路易威登 FELICIE女士老花色斜挎</a> </dd>
+							<dd class="boom_money"><span>￥7200</span></dd>
+					</dl>
+					<dl class="dl_boom">
+							<dt><a href="#"><img src="img/36.JPG"></a></dt>
+							<dd class="boom_name"><a href="#">Louis Vuitton/路易威登 经典老花帆布女士Alma BB手</a> </dd>
+							<dd class="boom_money"><span>￥8500</span></dd>
+					</dl>
+					<dl class="dl_boom">
+							<dt><a href="#"><img src="img/37.JPG"></a></dt>
+							<dd class="boom_name"><a href="#">Louis Vuitton/路易威登 老花TURENNE 女士两用 帆布/配皮 单肩包M48813</a> </dd>
+							<dd class="boom_money"><span>￥10889</span></dd>
+					</dl>
+					<dl class="dl_boom">
+							<dt><a href="#"><img src="img/38.JPG"></a></dt>
+							<dd class="boom_name"><a href="#">Louis Vuitton/路易威登 LV女士Montaigne中号两用手袋 帆布/配皮 单肩包 M41056</a> </dd>
+							<dd class="boom_money"><span>￥17556</span></dd>
+					</dl>
+					<div class="seek">
+					<input type="text" placeholder="lv"/><button>搜索</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--这上面是main-->
+		
+		<div id="list_nav">
+			<div class="list_nav_inner">
+				<p class="appraise">您对当前页面的结果是否满意？</p>
+				<input type="button" value="满意"/><input type="button" value="不满意"/>
+				<p class="thank">（为了给您提供更好的服务，我们希望收集您使用搜索功能时的看法和建议。对于您的支持我们由衷感谢！）</p>
+			</div>
+		</div>
+		
+		<!--这上面是list_nav.............................................-->
+		
+			<div id="footer">
+			<div class="footer_inner">
+				<div class="after">
+					<ul>
+						<li>新手指南</li>
+						<li>注册新用户</li>
+						<li>网上订购流程</li>
+						<li>优惠券使用说明</li>
+						<li>海外站购买说明</li>
+						<li>美国站购买说明</li>
+					</ul>
+					<ul>
+						<li>付款方式</li>
+						<li>在线支付</li>
+						<li>库支付</li>
+						<li>银行汇款</li>
+						<li>货到付款</li>
+					</ul>
+					<ul>
+						<li>物流配送</li>
+						<li>管家配送</li>
+						<li>快递配送</li>
+						<li>到店自提</li>
+						<li>配送范围及时间</li>
+						<li>配送政策</li>
+					</ul>
+					<ul>
+						<li>售后服务</li>
+						<li>退换货说明</li>
+						<li>如何办理退款</li>
+						<li>售后服务保养手册</li>
+						<li>奢侈品养护服务</li>
+						<li>奢侈品拍卖置换</li>
+					</ul>
+					<ul class="f_list">
+						<li>跨境体验店</li>
+						<li>寺库通过在全球多地设立体验店和办事机构的方式，为高端消费<br/>者提供贴心的全球奢侈品一站式服务</li>
+						<li><span>北京</span><span>香港</span><span>宜春</span></li>
+						<li><span>上海</span><span>米兰</span></li>
+						<li><span>成都</span><span>马来西亚</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--/*这上面是一个‘footer*/-->
+		<div id="footer_1">
+			<div class="footer_1_inner">
+				<ul>
+					<li>100%正品保证</li>
+					<li>7天退换货</li>
+					<li>专业维修保养</li>
+					<li>权威奢侈品鉴定</li>
+					<li>贴心管家物流</li>
+				</ul>
+			</div>
+		</div>
+		<!--/*这上面是一个‘footer_1*/-->
+		
+		<div id="footer_2">
+			<div class="footer_2_inner">
+				<div class="f_list_2">
+					<ul>
+						<li>寺库网</li>
+						<li>寺库奢侈品养护</li>
+						<li>寺库招商</li>
+						<li>寺库加盟店</li>
+					</ul>
+					<ul>
+						<li>统一社会信用代码：91110102689248179K</li>
+						<li>京公安备11010102001392</li>
+						<li>京ICP证110119号京ICP备09084709号-3</li>
+						<li>ISO9001中国质量管理体系认证</li>
+					</ul>
+					<ul>
+						<li>加入寺库</li>
+						<li>联系我们</li>
+						<li>关于寺库</li>
+						<li>帮助中心</li>
+						<li>寺库微博</li>
+						<li>友情链接</li>
+						<li>奢侈品热词</li>
+						<li>奢侈品资讯</li>
+					</ul>
+					<ul>
+						<li>COPYRIGHT © 2010-2016 北京寺库商贸有限公司 版权所有</li>
+					</ul>
+					<ul class="bg">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="code">
+					<img src="img/104.jpg">
+					<img src="img/104.jpg">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
